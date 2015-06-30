@@ -407,8 +407,6 @@ config CRYPTO_SHA1
 	help
 	  SHA-1 secure hash standard (FIPS 180-1/DFIPS 180-2).
 
-<<<<<<< HEAD
-=======
 config CRYPTO_SHA1_ARM
 	tristate "SHA1 digest algorithm (ARM-asm)"
 	depends on ARM
@@ -429,7 +427,6 @@ config CRYPTO_SHA1_ARM_NEON
 	  using optimized ARM NEON assembly, when NEON instructions are
 	  available.
 
->>>>>>> e322dfc... Squash:arm/crypto: Add optimized AES and SHA1 routines
 config CRYPTO_SHA256
 	tristate "SHA224 and SHA256 digest algorithm"
 	select CRYPTO_HASH
@@ -600,8 +597,6 @@ config CRYPTO_AES_NI_INTEL
 	  ECB, CBC, LRW, PCBC, XTS. The 64 bit version has additional
 	  acceleration for CTR.
 
-<<<<<<< HEAD
-=======
 config CRYPTO_AES_ARM
 	tristate "AES cipher algorithms (ARM-asm)"
 	depends on ARM
@@ -642,7 +637,6 @@ config CRYPTO_AES_ARM_BS
 	  This implementation does not rely on any lookup tables so it is
 	  believed to be invulnerable to cache timing attacks.
 
->>>>>>> e322dfc... Squash:arm/crypto: Add optimized AES and SHA1 routines
 config CRYPTO_ANUBIS
 	tristate "Anubis cipher algorithm"
 	select CRYPTO_ALGAPI
